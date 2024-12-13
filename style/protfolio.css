@@ -1,0 +1,51 @@
+/* nav related style */
+/* nav ar vitore hrader and ul k ak line a niye ashar jonno display flex korte hobe */
+nav {
+    display: flex;
+    /* nav and ul li gula ar duta dui side a pathaiya dilam */
+    justify-content: space-between;
+    
+   align-items: center;
+   /*  */
+}
+
+/* nav ul gukao ek line a niye ashar jonno display flex korte hobe */
+nav ul {
+    display: flex;
+    color: thistle;
+    /* nav ul gula son row thik korte align-item: center */
+    align-items: center;
+
+}
+
+.primary-button {}
+
+/* nav li lekhlei hobe ar ekahen sei gular kaj kora jabe */
+nav ul li {
+    padding-left: 10px;
+
+
+    list-style: none;
+
+}
+
+.nav-title {
+    color: rgb(14, 14, 15);
+    font-size: 100PX;
+    font-weight: 100px;
+}
+
+/* mary ar r rad korar jonno spam tag use kore class use korchi */
+.text-r {
+    color: red;
+}
+
+/* i */
+.primary-button{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 20px 35px;
+   font-size: 20;
+    font-weight: 100px;
+}
