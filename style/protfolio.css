@@ -4,9 +4,9 @@ nav {
     display: flex;
     /* nav and ul li gula ar duta dui side a pathaiya dilam */
     justify-content: space-between;
-    
+    /* align-item center dilemary and buttom vartikali ba row soman hobe */
    align-items: center;
-   /*  */
+   /* ul ba  li gulakeo align-item center diye thik korte hobe*/
 }
 
 /* nav ul gukao ek line a niye ashar jonno display flex korte hobe */
@@ -18,10 +18,20 @@ nav ul {
 
 }
 
-.primary-button {}
+/* button primary dile jodi same kisu use kori tahle button primary dilei hobe */
+.button-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20PX;
+    font-weight: 700X;
+    padding: 15PX 35PX;
+}
 
 /* nav li lekhlei hobe ar ekahen sei gular kaj kora jabe */
 nav ul li {
+
     padding-left: 10px;
 
 
@@ -32,7 +42,8 @@ nav ul li {
 .nav-title {
     color: rgb(14, 14, 15);
     font-size: 100PX;
-    font-weight: 100px;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 /* mary ar r rad korar jonno spam tag use kore class use korchi */
