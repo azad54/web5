@@ -7,6 +7,7 @@ nav {
     /* align-item center dilemary and buttom vartikali ba row soman hobe */
    align-items: center;
    /* ul ba  li gulakeo align-item center diye thik korte hobe*/
+   margin: 0 200px;
 }
 
 /* nav ul gukao ek line a niye ashar jonno display flex korte hobe */
@@ -59,4 +60,24 @@ nav ul li {
     padding: 20px 35px;
    font-size: 20;
     font-weight: 100px;
+}
+
+/* header related style  */
+.header{
+    background-color: #FFF8F3;
+}
+
+/*  */
+.banner{
+    /*  */
+    padding: 50px 30px 30px 150px;
+    /* div ar img ta pasa pasi niye ashar jonno display flex */
+    display: flex;
+    /* banner div and img soman korte align item center */
+    align-items: center;
+}
+/*  */
+.banner .profile-pic{
+    width: 300px;
+    
 }
