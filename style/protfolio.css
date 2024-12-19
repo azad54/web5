@@ -67,7 +67,7 @@ nav ul li {
 .header {
     background-color: #FFF8F3;
     /* ekhame picture ar nice je background thakbe seat korbo  */
-    background-image: url(../image/bg1.jpg), url('../image/image.png ');
+    background-image: url(../image/bg1.jpg), url(../image/image.png);
     /* jodi img ta repert hoy seta off kortehobe */
     background-repeat: no-repeat;
     /* img ta nice and right a dite hobe */
