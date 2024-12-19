@@ -8,6 +8,7 @@ nav {
     align-items: center;
     /* ul ba  li gulakeo align-item center diye thik korte hobe*/
     margin: 0 200px;
+    
 }
 
 /* nav ul gukao ek line a niye ashar jonno display flex korte hobe */
@@ -266,3 +267,33 @@ h2 {
     margin-top: 50px;
 }
 /* resume end */
+/* footer style */
+footer{
+    display: flex;
+  gap: 100px;
+    background: #d9d3d3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+footer img{
+    height: 20px;
+    width: 20px;
+}
+footer-column{
+    width: 50%;
+}
+.social-link{
+    margin-right: 25px;
+
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #444;
+    border-radius: 5px;
+    background: #FFF8F3;
+    border: 0;
+    width: 100%;
+}
+/*  */
