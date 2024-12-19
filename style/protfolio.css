@@ -5,9 +5,9 @@ nav {
     /* nav and ul li gula ar duta dui side a pathaiya dilam */
     justify-content: space-between;
     /* align-item center dilemary and buttom vartikali ba row soman hobe */
-   align-items: center;
-   /* ul ba  li gulakeo align-item center diye thik korte hobe*/
-   margin: 0 200px;
+    align-items: center;
+    /* ul ba  li gulakeo align-item center diye thik korte hobe*/
+    margin: 0 200px;
 }
 
 /* nav ul gukao ek line a niye ashar jonno display flex korte hobe */
@@ -53,17 +53,17 @@ nav ul li {
 }
 
 /* i */
-.primary-button{
+.primary-button {
     border-radius: 5px;
     background-color: red;
     color: white;
     padding: 20px 35px;
-   font-size: 20;
+    font-size: 20;
     font-weight: 100px;
 }
 
 /* header related style  */
-.header{
+.header {
     background-color: #FFF8F3;
     /* ekhame picture ar nice je background thakbe seat korbo  */
     background-image: url(../image/bg1.jpg);
@@ -74,7 +74,7 @@ nav ul li {
 }
 
 /*  */
-.banner{
+.banner {
     /*  */
     padding: 50px 30px 0px 150px;
     /* div ar img ta pasa pasi niye ashar jonno display flex */
@@ -84,39 +84,50 @@ nav ul li {
     /*  */
     justify-content: space-between;
 }
+
 /*  */
-.banner .profile-pic{
+.banner .profile-pic {
     width: 300px;
 
 }
 
 /* banner-greting  */
-.banner-greting{
+.banner-greting {
     /* font-size: 45px; */
     color: #FD6E0A;
     /* margin bottom 0 */
     margin: bottom 0;
 }
-.banner-title{
+
+.banner-title {
     /* font-size: 85px;
     font-weight: 70px; */
     /* margin-top: 0px; */
 }
-.banner-pra{
+
+.banner-pra {
     margin-top: 5px;
 }
-.banner-content{
+
+.banner-content {
     /* banner ta jate kom hoy tahle div ar text and img dui saite a kora jabe*/
     max-width: 500px;
 }
+
 /* .main section styles. */
-main{
+main {
     max-width: 1140px;
     /* margin oporeniche 0 dane bame joto jayga ace nibe tai auto */
     margin: 0 auto;
 }
+
+/* main ar vitore joto gula section tag ache son gulate  */
+main section {
+    margin-top: 310px;
+}
+
 /* about section style */
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
@@ -124,29 +135,134 @@ main{
 }
 
 /* serction title */
-.section-title{
+.section-title {
     color: black;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
+
 /*  */
-.section-description{
+.section-description {
     color: #FD6E0A;
     /* text gula maje nite text size  */
     text-align: center;
     font-size: 10px;
-    
+
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     /*  */
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
+
 /*  */
-#what-i-do-description{
+#what-i-do-description {
     padding: 30px 150px;
 }
+
+/*  skills related style*/
+.skills-container {
+    display: flex;
+    /*  */
+    /* gap dibo 24 */
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+
+    /*  */
+    border-radius: 5px;
+    background: #984949;
+    box-shadow: 0px 6px 50ox 0px;
+}
+
+.skills-description {
+    color: #984949;
+
+}
+
+/* resume section style */
+
+/* .resume-colum-title {
+    color: #474747;
+   
+   
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+}
+.resume-item-description{
+    color: #FD6E0A;
+} */
+/*  */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ff4c4c;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #0073e6;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section .column {
+    width: 48%;
+}
+
+.column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.column p {
+    margin: 0;
+    color: #666;
+}
+
+.entry {
+    margin-bottom: 15px;
+}
+
+.entry h4 {
+    font-size: 1em;
+    margin: 0;
+    font-weight: bold;
+    color: #444;
+}
+
+.entry span {
+    display: block;
+    font-size: 0.9em;
+    color: #999;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+/* resume end */
